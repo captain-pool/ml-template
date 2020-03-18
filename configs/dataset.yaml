@@ -1,0 +1,9 @@
+dataset:
+  records_path: cache/
+  shuffle: True
+  training:
+    batch_size: 256
+    repeat: -1
+  testing:
+    batch_size: 64
+    repeat: -1

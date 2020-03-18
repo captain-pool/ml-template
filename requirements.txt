@@ -1,0 +1,6 @@
+addict
+argparse
+confuse
+tensorboard
+tensorflow==2.1
+tqdm

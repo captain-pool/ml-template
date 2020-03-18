@@ -1,0 +1,16 @@
+# VIM Files
+.*.swp
+.*.swo
+
+# Python Folders
+__pycache__/
+
+
+# Log Files
+logdir/*
+
+# Cache dir
+cache/*
+
+# Saved Model dir
+saved_model/

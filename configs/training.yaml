@@ -1,0 +1,20 @@
+export_config_path: "biggie_config.yaml"
+training:
+  num_steps: 100000
+  optimizer:
+    name: rectified_adam
+  learning_rate:
+    step:
+      - 0
+      - 10000
+      - 50000
+    value:
+      - !!float 1e-7
+      - !!float 1e-4
+      - !!float 1e-6
+  loss: "root_mean_squared_error"
+  checkpoint_step: 1999
+  checkpoint_folder: 'checkpoints/ckpt'
+testing:
+  step: 100
+  step_size: 10
