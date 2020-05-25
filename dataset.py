@@ -1,7 +1,6 @@
 import pickle
 import tensorflow as tf
 import config
-import pandas as pd
 
 configuration = config.Config()
 
